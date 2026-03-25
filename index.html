@@ -1,0 +1,1239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- SEO Meta Tags -->
+<title>Korean Celebrity Hair Salon by CHO A | Carlton Melbourne | Perm, Colour & Styling</title>
+<meta name="description" content="Melbourne's premier Korean celebrity hair salon by CHO A. Specialising in Korean perms, hair colouring, and transformations in Carlton, Melbourne. Book your appointment today.">
+<meta name="keywords" content="Korean hair salon Melbourne, Korean perm Melbourne, CHO A hair salon, Carlton hair salon, Korean celebrity hair Melbourne, best perm Melbourne, hair colouring Carlton">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Korean Celebrity Hair Salon by CHO A | Melbourne">
+<meta property="og:description" content="Transform your hair with Melbourne's top Korean celebrity stylist CHO A. 5.0★ rated, 204 reviews. Book now.">
+<meta property="og:type" content="business.business">
+<link rel="canonical" href="https://choahairsalon.com.au">
+
+<!-- Schema.org -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HairSalon",
+  "name": "Korean Celebrity Hair Salon by CHO A",
+  "description": "Melbourne's premier Korean celebrity hair salon specialising in perms, colouring and styling.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "259 Queensberry St",
+    "addressLocality": "Carlton",
+    "addressRegion": "VIC",
+    "postalCode": "3053",
+    "addressCountry": "AU"
+  },
+  "telephone": "+61435998170",
+  "url": "https://choahairsalon.com.au",
+  "sameAs": ["https://www.instagram.com/choahairsalon"],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "204"
+  },
+  "openingHours": "Mo-Su 00:00-24:00",
+  "priceRange": "$$",
+  "servesCuisine": "Hair Salon"
+}
+</script>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --black: #0D0C0C;
+  --off-white: #F8F5F0;
+  --cream: #EDE8DF;
+  --rose: #C4957A;
+  --rose-light: #E8C4B0;
+  --rose-dark: #8B5E48;
+  --text: #1A1818;
+  --muted: #7A7470;
+  --border: #DDD8D0;
+}
+
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--off-white);
+  color: var(--text);
+  overflow-x: hidden;
+  cursor: none;
+}
+
+/* Custom cursor */
+.cursor {
+  width: 8px; height: 8px; background: var(--rose);
+  border-radius: 50%; position: fixed; pointer-events: none;
+  z-index: 9999; transition: transform 0.15s ease;
+  transform: translate(-50%, -50%);
+}
+.cursor-ring {
+  width: 36px; height: 36px;
+  border: 1px solid rgba(196,149,122,0.5);
+  border-radius: 50%; position: fixed; pointer-events: none;
+  z-index: 9998; transition: transform 0.35s ease, width 0.2s, height 0.2s;
+  transform: translate(-50%, -50%);
+}
+body:hover .cursor-ring { opacity: 1; }
+
+/* NAV */
+nav {
+  position: fixed; top: 0; width: 100%; z-index: 100;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 28px 60px;
+  transition: all 0.4s ease;
+}
+nav.scrolled {
+  background: rgba(248,245,240,0.95);
+  backdrop-filter: blur(20px);
+  padding: 18px 60px;
+  border-bottom: 1px solid var(--border);
+}
+.nav-logo {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18px; font-weight: 300; letter-spacing: 3px;
+  text-transform: uppercase; color: var(--off-white);
+  transition: color 0.4s;
+}
+nav.scrolled .nav-logo { color: var(--black); }
+.nav-logo span { font-style: italic; color: var(--rose-light); }
+nav.scrolled .nav-logo span { color: var(--rose); }
+.nav-links { display: flex; gap: 40px; list-style: none; }
+.nav-links a {
+  font-size: 12px; letter-spacing: 2.5px; text-transform: uppercase;
+  font-weight: 500; text-decoration: none;
+  color: rgba(248,245,240,0.7); transition: color 0.3s;
+}
+nav.scrolled .nav-links a { color: var(--muted); }
+.nav-links a:hover { color: var(--rose-light) !important; }
+.nav-book {
+  font-size: 11px; letter-spacing: 2px; text-transform: uppercase;
+  font-weight: 500; padding: 11px 28px;
+  border: 1px solid rgba(248,245,240,0.4);
+  color: var(--off-white); text-decoration: none;
+  transition: all 0.3s; border-radius: 1px;
+}
+nav.scrolled .nav-book { border-color: var(--rose); color: var(--rose); }
+.nav-book:hover { background: var(--rose); border-color: var(--rose); color: white !important; }
+
+/* HERO */
+.hero {
+  min-height: 100vh; position: relative; overflow: hidden;
+  display: flex; align-items: flex-end;
+  background: var(--black);
+}
+.hero-bg {
+  position: absolute; inset: 0;
+  background: 
+    radial-gradient(ellipse at 70% 30%, rgba(196,149,122,0.15) 0%, transparent 60%),
+    radial-gradient(ellipse at 20% 80%, rgba(196,149,122,0.08) 0%, transparent 50%),
+    var(--black);
+}
+.hero-pattern {
+  position: absolute; inset: 0; opacity: 0.03;
+  background-image: repeating-linear-gradient(
+    45deg, #C4957A 0px, #C4957A 1px, transparent 1px, transparent 40px
+  );
+}
+.hero-content {
+  position: relative; z-index: 2;
+  padding: 0 60px 100px;
+  max-width: 800px;
+}
+.hero-eyebrow {
+  display: flex; align-items: center; gap: 16px;
+  margin-bottom: 28px;
+  animation: fadeUp 1s 0.2s both;
+}
+.hero-line { width: 40px; height: 1px; background: var(--rose); }
+.hero-eyebrow span {
+  font-size: 11px; letter-spacing: 4px; text-transform: uppercase;
+  color: var(--rose); font-weight: 500;
+}
+.hero h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(56px, 9vw, 110px);
+  font-weight: 300; line-height: 0.95;
+  color: var(--off-white); margin-bottom: 32px;
+  animation: fadeUp 1s 0.35s both;
+}
+.hero h1 em {
+  font-style: italic; color: var(--rose-light);
+  display: block;
+}
+.hero-desc {
+  font-size: 15px; color: rgba(248,245,240,0.5);
+  line-height: 1.8; max-width: 440px; font-weight: 300;
+  margin-bottom: 48px;
+  animation: fadeUp 1s 0.5s both;
+}
+.hero-actions {
+  display: flex; align-items: center; gap: 32px;
+  animation: fadeUp 1s 0.65s both;
+}
+.btn-hero {
+  padding: 16px 40px; background: var(--rose);
+  color: white; text-decoration: none;
+  font-size: 12px; letter-spacing: 2px; text-transform: uppercase;
+  font-weight: 500; transition: all 0.3s; border-radius: 1px;
+}
+.btn-hero:hover { background: var(--rose-dark); transform: translateY(-2px); }
+.hero-rating {
+  display: flex; flex-direction: column; gap: 4px;
+}
+.hero-stars { color: var(--rose); font-size: 14px; letter-spacing: 2px; }
+.hero-rating-text { font-size: 12px; color: rgba(248,245,240,0.4); letter-spacing: 1px; }
+
+.hero-side {
+  position: absolute; right: 60px; top: 50%;
+  transform: translateY(-50%);
+  display: flex; flex-direction: column; gap: 40px; align-items: flex-end;
+  animation: fadeLeft 1s 0.8s both;
+}
+.hero-stat { text-align: right; }
+.hero-stat-num {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 48px; font-weight: 300; line-height: 1;
+  color: var(--off-white);
+}
+.hero-stat-label {
+  font-size: 10px; letter-spacing: 3px; text-transform: uppercase;
+  color: rgba(248,245,240,0.3); margin-top: 4px;
+}
+.hero-divider { width: 1px; height: 60px; background: rgba(248,245,240,0.1); align-self: center; }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeLeft {
+  from { opacity: 0; transform: translate(20px, -50%); }
+  to { opacity: 1; transform: translate(0, -50%); }
+}
+
+/* MARQUEE */
+.marquee-wrap {
+  background: var(--rose); padding: 14px 0; overflow: hidden;
+  border-top: 1px solid var(--rose-dark);
+}
+.marquee-track {
+  display: flex; gap: 60px; width: max-content;
+  animation: marquee 20s linear infinite;
+}
+.marquee-item {
+  font-size: 11px; letter-spacing: 4px; text-transform: uppercase;
+  color: white; font-weight: 500; white-space: nowrap;
+  display: flex; align-items: center; gap: 20px;
+}
+.marquee-dot { width: 4px; height: 4px; background: rgba(255,255,255,0.4); border-radius: 50%; }
+@keyframes marquee { to { transform: translateX(-50%); } }
+
+/* ABOUT */
+.about {
+  padding: 140px 60px;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 100px;
+  max-width: 1300px; margin: 0 auto; align-items: center;
+}
+.about-visual {
+  position: relative;
+}
+.about-card-main {
+  background: var(--black);
+  aspect-ratio: 3/4; border-radius: 2px;
+  display: flex; align-items: center; justify-content: center;
+  overflow: hidden; position: relative;
+}
+.about-card-inner {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 100px; font-style: italic;
+  color: rgba(196,149,122,0.15);
+  user-select: none;
+}
+.about-badge {
+  position: absolute; bottom: -20px; right: -20px;
+  background: var(--rose); color: white;
+  padding: 24px 28px; text-align: center; border-radius: 1px;
+}
+.about-badge-num {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 40px; font-weight: 300; line-height: 1; display: block;
+}
+.about-badge-text {
+  font-size: 9px; letter-spacing: 2.5px; text-transform: uppercase;
+  opacity: 0.85; margin-top: 4px; display: block;
+}
+.about-accent-box {
+  position: absolute; top: 30px; left: -20px;
+  border: 1px solid var(--rose); padding: 16px 20px;
+  background: var(--off-white);
+}
+.about-accent-text {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 13px; font-style: italic; color: var(--rose);
+  letter-spacing: 1px;
+}
+.section-eyebrow {
+  display: flex; align-items: center; gap: 14px; margin-bottom: 20px;
+}
+.section-line { width: 32px; height: 1px; background: var(--rose); }
+.section-tag {
+  font-size: 10px; letter-spacing: 4px; text-transform: uppercase;
+  color: var(--rose); font-weight: 500;
+}
+.about h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(36px, 4vw, 54px); font-weight: 300;
+  line-height: 1.1; margin-bottom: 24px;
+}
+.about h2 em { font-style: italic; color: var(--rose); }
+.about p {
+  font-size: 15px; color: var(--muted); line-height: 1.9;
+  font-weight: 300; margin-bottom: 20px;
+}
+.about-features {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 16px;
+  margin-top: 36px;
+}
+.about-feat {
+  padding: 20px; background: white;
+  border: 1px solid var(--border); border-radius: 1px;
+  border-left: 2px solid var(--rose);
+}
+.about-feat-title { font-size: 13px; font-weight: 500; margin-bottom: 4px; }
+.about-feat-text { font-size: 12px; color: var(--muted); line-height: 1.5; }
+
+/* SERVICES */
+.services { background: var(--black); padding: 140px 60px; }
+.services-inner { max-width: 1300px; margin: 0 auto; }
+.services-top {
+  display: flex; justify-content: space-between;
+  align-items: flex-end; margin-bottom: 80px;
+}
+.services h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(40px, 5vw, 64px); font-weight: 300;
+  color: var(--off-white); line-height: 1.05;
+}
+.services h2 em { font-style: italic; color: var(--rose-light); }
+.services-sub {
+  font-size: 14px; color: rgba(248,245,240,0.4);
+  max-width: 280px; text-align: right; line-height: 1.7; font-weight: 300;
+}
+.services-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px;
+  background: rgba(255,255,255,0.06);
+}
+.service-card {
+  background: var(--black); padding: 48px 40px;
+  transition: background 0.3s; position: relative; overflow: hidden;
+}
+.service-card::after {
+  content: ''; position: absolute; bottom: 0; left: 0;
+  width: 0; height: 2px; background: var(--rose);
+  transition: width 0.4s ease;
+}
+.service-card:hover { background: #151313; }
+.service-card:hover::after { width: 100%; }
+.service-num {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 13px; color: rgba(196,149,122,0.4);
+  letter-spacing: 3px; margin-bottom: 24px;
+}
+.service-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 28px; font-weight: 300; color: var(--off-white);
+  margin-bottom: 12px; line-height: 1.2;
+}
+.service-desc {
+  font-size: 13px; color: rgba(248,245,240,0.4);
+  line-height: 1.8; font-weight: 300; margin-bottom: 28px;
+}
+.service-price {
+  font-size: 14px; color: var(--rose-light); font-weight: 500;
+  letter-spacing: 1px;
+}
+.service-tag {
+  display: inline-block; margin-top: 12px;
+  font-size: 9px; letter-spacing: 2.5px; text-transform: uppercase;
+  padding: 4px 12px; border: 1px solid rgba(196,149,122,0.3);
+  color: var(--rose); border-radius: 20px;
+}
+
+/* REVIEWS */
+.reviews { padding: 140px 60px; background: var(--cream); }
+.reviews-inner { max-width: 1300px; margin: 0 auto; }
+.reviews-head { text-align: center; margin-bottom: 80px; }
+.reviews-head h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(40px, 5vw, 64px); font-weight: 300;
+  margin-bottom: 12px;
+}
+.reviews-head h2 em { font-style: italic; color: var(--rose); }
+.reviews-rating {
+  display: flex; align-items: center; justify-content: center;
+  gap: 16px; margin-top: 20px;
+}
+.reviews-stars { color: var(--rose); font-size: 18px; letter-spacing: 3px; }
+.reviews-count { font-size: 13px; color: var(--muted); }
+.reviews-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.review-card {
+  background: white; padding: 36px;
+  border-radius: 1px; border: 1px solid var(--border);
+  position: relative; transition: transform 0.2s, box-shadow 0.2s;
+}
+.review-card:hover { transform: translateY(-4px); box-shadow: 0 16px 40px rgba(0,0,0,0.08); }
+.review-quote {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 64px; line-height: 0.5; color: var(--rose-light);
+  margin-bottom: 20px; font-style: italic;
+}
+.review-stars { color: var(--rose); font-size: 12px; letter-spacing: 2px; margin-bottom: 16px; }
+.review-text {
+  font-size: 14px; color: var(--muted); line-height: 1.8;
+  font-weight: 300; font-style: italic; margin-bottom: 24px;
+}
+.review-author { font-size: 13px; font-weight: 500; }
+.review-date { font-size: 11px; color: var(--muted); margin-top: 2px; }
+
+/* BOOKING */
+.booking { padding: 140px 60px; background: var(--off-white); }
+.booking-inner {
+  max-width: 1300px; margin: 0 auto;
+  display: grid; grid-template-columns: 1fr 1.1fr; gap: 100px; align-items: start;
+}
+.booking h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(40px, 5vw, 60px); font-weight: 300; line-height: 1.1;
+  margin-bottom: 20px;
+}
+.booking h2 em { font-style: italic; color: var(--rose); }
+.booking-desc { font-size: 15px; color: var(--muted); line-height: 1.8; font-weight: 300; margin-bottom: 40px; }
+.contact-info { display: flex; flex-direction: column; gap: 20px; }
+.contact-item { display: flex; gap: 16px; align-items: flex-start; }
+.contact-icon {
+  width: 40px; height: 40px; background: var(--cream);
+  border: 1px solid var(--border); border-radius: 1px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 16px; flex-shrink: 0;
+}
+.contact-label { font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: var(--rose); font-weight: 500; margin-bottom: 4px; }
+.contact-value { font-size: 15px; color: var(--text); font-weight: 300; }
+.contact-value a { color: var(--text); text-decoration: none; }
+.contact-value a:hover { color: var(--rose); }
+
+/* FORM */
+.form-wrap {
+  background: white; padding: 52px;
+  border: 1px solid var(--border); border-radius: 1px;
+  box-shadow: 0 4px 60px rgba(0,0,0,0.06);
+}
+.form-wrap h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 32px; font-weight: 300; margin-bottom: 6px;
+}
+.form-wrap h3 em { font-style: italic; color: var(--rose); }
+.form-sub { font-size: 13px; color: var(--muted); margin-bottom: 36px; line-height: 1.6; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.form-group { margin-bottom: 18px; }
+.form-group label {
+  display: block; font-size: 10px; font-weight: 500;
+  letter-spacing: 2.5px; text-transform: uppercase;
+  color: var(--muted); margin-bottom: 8px;
+}
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%; padding: 14px 16px;
+  border: 1px solid var(--border); border-radius: 1px;
+  font-family: 'DM Sans', sans-serif; font-size: 14px;
+  color: var(--text); background: var(--off-white);
+  outline: none; transition: border-color 0.2s, box-shadow 0.2s;
+  font-weight: 300;
+}
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: var(--rose);
+  box-shadow: 0 0 0 3px rgba(196,149,122,0.1);
+  background: white;
+}
+.form-group textarea { resize: vertical; min-height: 90px; }
+.form-btn {
+  width: 100%; padding: 16px;
+  background: var(--black); color: white;
+  border: none; border-radius: 1px; cursor: pointer;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 11px; font-weight: 500; letter-spacing: 3px;
+  text-transform: uppercase; transition: all 0.3s;
+}
+.form-btn:hover { background: var(--rose); transform: translateY(-1px); }
+.form-success {
+  display: none; margin-top: 16px; padding: 16px 20px;
+  background: rgba(196,149,122,0.08); border: 1px solid var(--rose);
+  text-align: center; font-size: 14px; color: var(--rose-dark);
+  font-weight: 500;
+}
+
+/* LOCATION */
+.location { padding: 0 60px 140px; }
+.location-inner {
+  max-width: 1300px; margin: 0 auto;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center;
+}
+.location h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 48px; font-weight: 300; margin-bottom: 40px;
+}
+.location h2 em { font-style: italic; color: var(--rose); }
+.hours-grid { display: flex; flex-direction: column; gap: 0; margin-bottom: 36px; }
+.hours-row {
+  display: flex; justify-content: space-between;
+  padding: 14px 0; border-bottom: 1px solid var(--border);
+  font-size: 14px;
+}
+.hours-row .day { color: var(--muted); font-weight: 300; }
+.hours-row .time { font-weight: 500; }
+.hours-row.highlight { color: var(--rose); }
+.hours-row.highlight .day { color: var(--rose); }
+.map-box {
+  background: var(--cream); aspect-ratio: 4/3;
+  border: 1px solid var(--border); border-radius: 1px;
+  overflow: hidden; position: relative;
+}
+.map-open-btn {
+  position: absolute; bottom: 12px; right: 12px;
+  display: inline-flex; align-items: center; gap: 6px;
+  background: white; color: var(--text);
+  padding: 8px 14px; border-radius: 4px;
+  font-size: 12px; font-weight: 500; text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  transition: all 0.2s; border: 1px solid var(--border);
+}
+.map-open-btn:hover { background: var(--rose); color: white; border-color: var(--rose); }
+.map-box-text { font-size: 13px; color: var(--muted); }
+.map-link {
+  font-size: 12px; letter-spacing: 2px; text-transform: uppercase;
+  color: var(--rose); text-decoration: none; font-weight: 500;
+  border-bottom: 1px solid var(--rose-light); padding-bottom: 2px;
+}
+
+/* FOOTER */
+footer { background: var(--black); padding: 80px 60px 40px; }
+.footer-top {
+  max-width: 1300px; margin: 0 auto;
+  display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 80px;
+  padding-bottom: 60px; border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.footer-logo {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 22px; font-weight: 300; letter-spacing: 2px;
+  color: var(--off-white); margin-bottom: 16px;
+}
+.footer-logo em { font-style: italic; color: var(--rose-light); }
+.footer-desc { font-size: 13px; color: rgba(255,255,255,0.3); line-height: 1.8; font-weight: 300; }
+.footer-heading {
+  font-size: 10px; letter-spacing: 3px; text-transform: uppercase;
+  color: var(--rose); font-weight: 500; margin-bottom: 20px;
+}
+.footer-links { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.footer-links a {
+  font-size: 13px; color: rgba(255,255,255,0.4);
+  text-decoration: none; font-weight: 300; transition: color 0.2s;
+}
+.footer-links a:hover { color: var(--rose-light); }
+.footer-bottom {
+  max-width: 1300px; margin: 32px auto 0;
+  display: flex; justify-content: space-between; align-items: center;
+}
+.footer-copy { font-size: 12px; color: rgba(255,255,255,0.2); }
+.footer-seo { font-size: 11px; color: rgba(255,255,255,0.1); }
+.insta-btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  margin-top: 20px; padding: 10px 20px;
+  border: 1px solid rgba(255,255,255,0.15); color: rgba(255,255,255,0.5);
+  text-decoration: none; font-size: 12px; letter-spacing: 1.5px;
+  text-transform: uppercase; transition: all 0.2s; border-radius: 1px;
+}
+.insta-btn:hover { border-color: var(--rose); color: var(--rose); }
+
+/* WHATSAPP FLOAT */
+.wa-float {
+  position: fixed; bottom: 32px; right: 32px; z-index: 999;
+  display: flex; align-items: center; gap: 12px;
+  background: #25D366; color: white;
+  padding: 14px 22px 14px 18px;
+  border-radius: 50px;
+  box-shadow: 0 8px 30px rgba(37,211,102,0.4);
+  text-decoration: none; font-size: 13px; font-weight: 500;
+  letter-spacing: 0.5px;
+  animation: waPop 0.5s 1.5s both, waPulse 2.5s 3s infinite;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.wa-float:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 12px 40px rgba(37,211,102,0.5);
+  color: white;
+}
+.wa-icon { width: 22px; height: 22px; flex-shrink: 0; }
+.wa-float .wa-sub {
+  font-size: 10px; opacity: 0.85; display: block;
+  font-weight: 400; letter-spacing: 0;
+}
+@keyframes waPop {
+  from { opacity: 0; transform: translateY(20px) scale(0.8); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+@keyframes waPulse {
+  0%,100% { box-shadow: 0 8px 30px rgba(37,211,102,0.4); }
+  50%      { box-shadow: 0 8px 40px rgba(37,211,102,0.7); }
+}
+
+/* CALL FLOAT */
+.call-float {
+  position: fixed; bottom: 102px; right: 38px; z-index: 999;
+  display: flex; align-items: center; gap: 12px;
+  background: var(--black); color: white;
+  padding: 14px 22px 14px 18px;
+  border-radius: 50px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+  text-decoration: none; font-size: 13px; font-weight: 500;
+  letter-spacing: 0.5px;
+  animation: waPop 0.5s 1.8s both;
+  transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+.call-float:hover {
+  background: var(--rose); color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 12px 40px rgba(196,149,122,0.4);
+}
+.call-icon { width: 20px; height: 20px; flex-shrink: 0; }
+.call-float .call-sub {
+  font-size: 10px; opacity: 0.6; display: block;
+  font-weight: 400; letter-spacing: 0;
+}
+.call-float:hover .call-sub { opacity: 0.85; }
+
+/* MOBILE NAV HAMBURGER */
+.nav-hamburger {
+  display: none; flex-direction: column; gap: 5px;
+  cursor: pointer; padding: 4px; background: none; border: none;
+}
+.nav-hamburger span {
+  display: block; width: 22px; height: 1.5px;
+  background: var(--off-white); transition: all 0.3s;
+}
+nav.scrolled .nav-hamburger span { background: var(--black); }
+.nav-hamburger.open span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+.nav-hamburger.open span:nth-child(2) { opacity: 0; }
+.nav-hamburger.open span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+
+/* MOBILE MENU */
+.mobile-menu {
+  display: none; position: fixed; inset: 0; z-index: 99;
+  background: var(--black); flex-direction: column;
+  align-items: center; justify-content: center; gap: 36px;
+}
+.mobile-menu.open { display: flex; }
+.mobile-menu a {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 40px; font-weight: 300; color: var(--off-white);
+  text-decoration: none; letter-spacing: 2px;
+  transition: color 0.2s;
+}
+.mobile-menu a:hover { color: var(--rose-light); }
+.mobile-menu-btns {
+  display: flex; gap: 16px; margin-top: 20px;
+  flex-wrap: wrap; justify-content: center;
+}
+.mobile-menu-btns a {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 13px !important; font-weight: 500 !important;
+  letter-spacing: 1.5px; text-transform: uppercase;
+  padding: 14px 28px; border-radius: 50px;
+}
+.mobile-wa { background: #25D366; color: white !important; }
+.mobile-call { background: var(--rose); color: white !important; }
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  nav { padding: 18px 20px; }
+  nav.scrolled { padding: 14px 20px; }
+  .nav-links { display: none; }
+  .nav-hamburger { display: flex; }
+  .nav-book { display: none; }
+
+  .hero-content { padding: 0 20px 140px; }
+  .hero-side { display: none; }
+  .hero h1 { font-size: 48px; }
+  .hero-desc { font-size: 14px; }
+  .hero-actions { flex-direction: column; align-items: flex-start; gap: 20px; }
+
+  .about { padding: 80px 20px; grid-template-columns: 1fr; gap: 48px; }
+  .about-visual { order: 2; }
+  .about-text { order: 1; }
+  .about-badge { bottom: -16px; right: -10px; }
+  .about-accent-box { left: -10px; }
+  .about-features { grid-template-columns: 1fr; }
+  .about h2 { font-size: 32px; }
+
+  .services { padding: 80px 20px; }
+  .services-top { flex-direction: column; gap: 16px; }
+  .services-sub { text-align: left; max-width: 100%; }
+  .services-grid { grid-template-columns: 1fr; gap: 1px; }
+  .service-card { padding: 32px 24px; }
+  .services h2 { font-size: 36px; }
+
+  .reviews { padding: 80px 20px; }
+  .reviews-grid { grid-template-columns: 1fr; gap: 16px; }
+  .reviews-head h2 { font-size: 36px; }
+
+  .booking { padding: 80px 20px; }
+  .booking-inner { grid-template-columns: 1fr; gap: 48px; }
+  .booking h2 { font-size: 32px; }
+  .form-wrap { padding: 28px 20px; }
+  .form-row { grid-template-columns: 1fr; }
+
+  .location { padding: 0 20px 80px; }
+  .location-inner { grid-template-columns: 1fr; gap: 40px; }
+  .location h2 { font-size: 32px; }
+
+  footer { padding: 60px 20px 32px; }
+  .footer-top { grid-template-columns: 1fr; gap: 40px; }
+  .footer-bottom { flex-direction: column; gap: 8px; text-align: center; }
+
+  .wa-float { bottom: 20px; right: 16px; padding: 12px 18px 12px 14px; font-size: 12px; }
+  .call-float { bottom: 20px; left: 16px; padding: 12px 18px 12px 14px; font-size: 12px; }
+  .wa-float .wa-sub, .call-float .call-sub { display: none; }
+
+  .about-card-main { aspect-ratio: 4/3; }
+  .marquee-wrap { padding: 12px 0; }
+}
+
+@media (max-width: 480px) {
+  .hero h1 { font-size: 38px; }
+  .hero-content { padding: 0 16px 130px; }
+  .about, .services, .reviews, .booking, .location { padding-left: 16px; padding-right: 16px; }
+  footer { padding: 48px 16px 28px; }
+  .service-card { padding: 28px 20px; }
+  .review-card { padding: 24px 20px; }
+  .form-wrap { padding: 24px 16px; }
+}
+</style>
+</head>
+<body>
+
+<!-- Call Float Button -->
+<a class="call-float" href="tel:+61435998170" onclick="window.location.href='tel:+61435998170'; return false;">
+  <svg class="call-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+  </svg>
+  <div>
+    Call Now
+    <span class="call-sub">+61 435 998 170</span>
+  </div>
+</a>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about" onclick="closeMobileMenu()">About</a>
+  <a href="#services" onclick="closeMobileMenu()">Services</a>
+  <a href="#reviews" onclick="closeMobileMenu()">Reviews</a>
+  <a href="#booking" onclick="closeMobileMenu()">Book</a>
+  <div class="mobile-menu-btns">
+    <a class="mobile-call" href="tel:+61435998170">📞 Call Now</a>
+    <a class="mobile-wa" href="https://wa.me/61435998170?text=Hi%20CHO%20A!%20I%27d%20love%20to%20book%20an%20appointment.%20Could%20you%20let%20me%20know%20your%20availability%3F%20Thank%20you!" target="_blank">💬 WhatsApp</a>
+  </div>
+</div>
+
+<!-- WhatsApp Float Button -->
+<a class="wa-float" href="https://wa.me/61435998170?text=Hi%20CHO%20A!%20%F0%9F%8C�%20I%20found%20your%20salon%20online%20and%20I%27d%20love%20to%20book%20an%20appointment.%20Could%20you%20please%20let%20me%20know%20your%20availability%3F%20Thank%20you!" target="_blank">
+  <svg class="wa-icon" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+  </svg>
+  <div>
+    Chat with us
+    <span class="wa-sub">Usually replies in minutes</span>
+  </div>
+</a>
+
+<!-- Custom Cursor -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-logo"><span>CHO A</span> Hair Seoul</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#reviews">Reviews</a></li>
+    <li><a href="#booking">Contact</a></li>
+  </ul>
+  <a href="#booking" class="nav-book">Book Now</a>
+  <button class="nav-hamburger" id="hamburger" onclick="toggleMobileMenu()">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-pattern"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">
+      <div class="hero-line"></div>
+      <span>Korean Celebrity Hair · Carlton, Melbourne</span>
+    </div>
+    <h1>Hair that tells<em>your story.</em></h1>
+    <p class="hero-desc">Melbourne's most sought-after Korean hair specialist. Transformative perms, colour, and styling techniques straight from Seoul — crafted by CHO A.</p>
+    <div class="hero-actions">
+      <a href="#booking" class="btn-hero">Book Appointment</a>
+      <div class="hero-rating">
+        <div class="hero-stars">★★★★★</div>
+        <div class="hero-rating-text">5.0 · 204 Google Reviews</div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-side">
+    <div class="hero-stat">
+      <div class="hero-stat-num">5.0</div>
+      <div class="hero-stat-label">Google Rating</div>
+    </div>
+    <div class="hero-divider"></div>
+    <div class="hero-stat">
+      <div class="hero-stat-num">204</div>
+      <div class="hero-stat-label">Reviews</div>
+    </div>
+    <div class="hero-divider"></div>
+    <div class="hero-stat">
+      <div class="hero-stat-num">24h</div>
+      <div class="hero-stat-label">Open Daily</div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-wrap">
+  <div class="marquee-track">
+    <div class="marquee-item">Korean Perm<div class="marquee-dot"></div></div>
+    <div class="marquee-item">Hair Colouring<div class="marquee-dot"></div></div>
+    <div class="marquee-item">Celebrity Styling<div class="marquee-dot"></div></div>
+    <div class="marquee-item">Carlton Melbourne<div class="marquee-dot"></div></div>
+    <div class="marquee-item">5.0 Stars<div class="marquee-dot"></div></div>
+    <div class="marquee-item">Hair Treatments<div class="marquee-dot"></div></div>
+    <div class="marquee-item">By CHO A<div class="marquee-dot"></div></div>
+    <div class="marquee-item">Korean Perm<div class="marquee-dot"></div></div>
+    <div class="marquee-item">Hair Colouring<div class="marquee-dot"></div></div>
+    <div class="marquee-item">Celebrity Styling<div class="marquee-dot"></div></div>
+    <div class="marquee-item">Carlton Melbourne<div class="marquee-dot"></div></div>
+    <div class="marquee-item">5.0 Stars<div class="marquee-dot"></div></div>
+    <div class="marquee-item">Hair Treatments<div class="marquee-dot"></div></div>
+    <div class="marquee-item">By CHO A<div class="marquee-dot"></div></div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="about-visual">
+    <div class="about-accent-box">
+      <div class="about-accent-text">"Transforming hair, transforming lives"</div>
+    </div>
+    <div class="about-card-main">
+      <div class="about-card-inner">CHO A</div>
+    </div>
+    <div class="about-badge">
+      <span class="about-badge-num">5.0★</span>
+      <span class="about-badge-text">204 Reviews</span>
+    </div>
+  </div>
+  <div class="about-text">
+    <div class="section-eyebrow">
+      <div class="section-line"></div>
+      <span class="section-tag">Meet CHO A</span>
+    </div>
+    <h2>Where Korean artistry <em>meets Melbourne.</em></h2>
+    <p>CHO A brings the coveted techniques of Seoul's celebrity hair world to the heart of Carlton. With years of experience transforming hair at the highest level, every appointment is a personalised journey to your best self.</p>
+    <p>Specialising in Korean perms that deliver soft, natural-looking curls — and colour treatments that leave your hair healthy, vibrant, and full of life.</p>
+    <div class="about-features">
+      <div class="about-feat">
+        <div class="about-feat-title">Korean Techniques</div>
+        <div class="about-feat-text">Authentic Seoul-style perms & treatments</div>
+      </div>
+      <div class="about-feat">
+        <div class="about-feat-title">Healthy Hair First</div>
+        <div class="about-feat-text">Deep conditioning with every service</div>
+      </div>
+      <div class="about-feat">
+        <div class="about-feat-title">All Hair Types</div>
+        <div class="about-feat-text">Specialists for every hair texture</div>
+      </div>
+      <div class="about-feat">
+        <div class="about-feat-title">Open 24 Hours</div>
+        <div class="about-feat-text">Flexible appointments, every day</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="services-inner">
+    <div class="services-top">
+      <div>
+        <div class="section-eyebrow">
+          <div class="section-line"></div>
+          <span class="section-tag" style="color:var(--rose-light)">What We Offer</span>
+        </div>
+        <h2>Our <em>Services</em></h2>
+      </div>
+      <div class="services-sub">Every service is tailored to your hair type, lifestyle, and vision.</div>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-num">01</div>
+        <div class="service-name">Korean Perm</div>
+        <div class="service-desc">CHO A's signature technique — soft, bouncy waves that look naturally beautiful. From digital perms to body wave, tailored to your hair.</div>
+        <div class="service-price">From AUD $180</div>
+        <span class="service-tag">Most Popular</span>
+      </div>
+      <div class="service-card">
+        <div class="service-num">02</div>
+        <div class="service-name">Hair Colouring</div>
+        <div class="service-desc">Full colour, highlights, balayage, and Korean-style toning. Rich, long-lasting colour with a deep conditioning treatment included.</div>
+        <div class="service-price">From AUD $120</div>
+      </div>
+      <div class="service-card">
+        <div class="service-num">03</div>
+        <div class="service-name">Cut & Styling</div>
+        <div class="service-desc">Precision cuts with Korean styling techniques. Whether sleek and straight or textured and lived-in — perfectly executed every time.</div>
+        <div class="service-price">From AUD $65</div>
+      </div>
+      <div class="service-card">
+        <div class="service-num">04</div>
+        <div class="service-name">Hair Treatment</div>
+        <div class="service-desc">Intensive repair and nourishment for dry, damaged, or over-processed hair. Leave the salon with silky, healthy strands.</div>
+        <div class="service-price">From AUD $80</div>
+      </div>
+      <div class="service-card">
+        <div class="service-num">05</div>
+        <div class="service-name">Keratin & Straightening</div>
+        <div class="service-desc">Smooth, frizz-free hair that lasts months. Korean straightening treatments that maintain natural movement.</div>
+        <div class="service-price">From AUD $200</div>
+        <span class="service-tag">Premium</span>
+      </div>
+      <div class="service-card">
+        <div class="service-num">06</div>
+        <div class="service-name">Full Makeover</div>
+        <div class="service-desc">Complete hair transformation — colour + perm + treatment + style. Your ultimate K-beauty hair experience.</div>
+        <div class="service-price">From AUD $350</div>
+        <span class="service-tag">Best Value</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="reviews" id="reviews">
+  <div class="reviews-inner">
+    <div class="reviews-head">
+      <div class="section-eyebrow" style="justify-content:center">
+        <div class="section-line"></div>
+        <span class="section-tag">What Clients Say</span>
+        <div class="section-line"></div>
+      </div>
+      <h2>Loved by <em>Melbourne</em></h2>
+      <div class="reviews-rating">
+        <div class="reviews-stars">★★★★★</div>
+        <div class="reviews-count">5.0 out of 5 · 204 Google Reviews</div>
+      </div>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card">
+        <div class="review-quote">"</div>
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">Cho A did great on my hair. I was so satisfied — she transformed it into something beautiful! The curls look so natural. My hair before was dry and frizzy, now it's soft and bouncy. Beyond my expectations.</p>
+        <div class="review-author">DM V</div>
+        <div class="review-date">Google Review · 1 year ago</div>
+      </div>
+      <div class="review-card">
+        <div class="review-quote">"</div>
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">Cho A done an amazing job with my perm. I recommend her work to anyone young or old trying a modern style of perm. Great skill, great personality. Thank you so much!</p>
+        <div class="review-author">Ali Mahamid</div>
+        <div class="review-date">Google Review · 2 weeks ago</div>
+      </div>
+      <div class="review-card">
+        <div class="review-quote">"</div>
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">This was my first time and I was very impressed. She had great skill and provided as much detail as possible about the colour and my hair condition. My hair turned out amazing. Very nice and friendly staff!</p>
+        <div class="review-author">Anh Luong</div>
+        <div class="review-date">Google Review · 3 years ago</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BOOKING -->
+<section class="booking" id="booking">
+  <div class="booking-inner">
+    <div>
+      <div class="section-eyebrow">
+        <div class="section-line"></div>
+        <span class="section-tag">Get In Touch</span>
+      </div>
+      <h2>Ready for your<em>transformation?</em></h2>
+      <p class="booking-desc">Book your appointment with CHO A and experience Melbourne's finest Korean hair artistry. We're open every day — flexible scheduling to suit your lifestyle.</p>
+      <div class="contact-info">
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div>
+            <div class="contact-label">Location</div>
+            <div class="contact-value">259 Queensberry St, Carlton VIC 3053</div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <div>
+            <div class="contact-label">Phone</div>
+            <div class="contact-value"><a href="tel:+61435998170">+61 435 998 170</a></div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">🕐</div>
+          <div>
+            <div class="contact-label">Hours</div>
+            <div class="contact-value">Open 24 Hours · Every Day</div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📸</div>
+          <div>
+            <div class="contact-label">Instagram</div>
+            <div class="contact-value"><a href="https://www.instagram.com/ysora1" target="_blank">@choahairsalon</a></div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">💬</div>
+          <div>
+            <div class="contact-label">WhatsApp</div>
+            <div class="contact-value">
+              <a href="https://wa.me/61435998170?text=Hi%20CHO%20A!%20I%20found%20your%20salon%20online%20and%20I%27d%20love%20to%20book%20an%20appointment.%20Could%20you%20please%20let%20me%20know%20your%20availability%3F%20Thank%20you!" target="_blank" style="color:var(--rose);font-weight:500;">Chat on WhatsApp →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-wrap">
+      <h3>Book an <em>Appointment</em></h3>
+      <p class="form-sub">Fill in your details and CHO A will confirm your appointment within a few hours.</p>
+      <form id="bookingForm" onsubmit="submitBooking(event)">
+        <div class="form-row">
+          <div class="form-group">
+            <label>First Name *</label>
+            <input type="text" placeholder="Your name" required>
+          </div>
+          <div class="form-group">
+            <label>Last Name *</label>
+            <input type="text" placeholder="Last name" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Phone Number *</label>
+          <input type="tel" placeholder="+61 4XX XXX XXX" required>
+        </div>
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" placeholder="your@email.com">
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Preferred Date *</label>
+            <input type="date" required>
+          </div>
+          <div class="form-group">
+            <label>Preferred Time</label>
+            <select>
+              <option value="">Any time</option>
+              <option>Morning (9am–12pm)</option>
+              <option>Afternoon (12pm–4pm)</option>
+              <option>Evening (4pm–8pm)</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Service Required *</label>
+          <select required>
+            <option value="">Select a service</option>
+            <option>Korean Perm</option>
+            <option>Hair Colouring</option>
+            <option>Cut & Styling</option>
+            <option>Hair Treatment</option>
+            <option>Keratin & Straightening</option>
+            <option>Full Makeover</option>
+            <option>Not sure — need consultation</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Tell us about your hair</label>
+          <textarea placeholder="Hair length, current condition, any concerns or inspiration..."></textarea>
+        </div>
+        <button type="submit" class="form-btn">Request Appointment</button>
+        <div class="form-success" id="bookSuccess">
+          ✓ Thank you! CHO A will be in touch within a few hours to confirm your appointment.
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- LOCATION -->
+<section class="location">
+  <div class="location-inner">
+    <div>
+      <div class="section-eyebrow">
+        <div class="section-line"></div>
+        <span class="section-tag">Find Us</span>
+      </div>
+      <h2>Visit us in <em>Carlton</em></h2>
+      <div class="hours-grid">
+        <div class="hours-row highlight">
+          <span class="day">Every Day</span>
+          <span class="time">Open 24 Hours</span>
+        </div>
+        <div class="hours-row">
+          <span class="day">259 Queensberry St</span>
+          <span class="time">Carlton VIC 3053</span>
+        </div>
+        <div class="hours-row">
+          <span class="day">Phone</span>
+          <span class="time">+61 435 998 170</span>
+        </div>
+        <div class="hours-row">
+          <span class="day">Tram Stop</span>
+          <span class="time">Route 1, 8 — Queensberry St</span>
+        </div>
+      </div>
+    </div>
+    <div class="map-box">
+
+      <iframe
+       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36093.74479110946!2d144.96480062058404!3d-37.79791587040791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d3d58412f21%3A0xbb7555c7f61c9559!2skorean%20celebrity%20hair%20salon%20by%20CHO%20A%2C%20in%20melbourne!5e1!3m2!1sen!2sin!4v1774411878409!5m2!1sen!2sin"
+        width="100%" height="100%" style="border:0; border-radius:1px; min-height:320px;"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        onerror="this.style.display='none'; document.getElementById('mapFallback').style.display='flex';">
+      </iframe>
+      <div id="mapFallback" style="display:none; flex-direction:column; align-items:center; justify-content:center; gap:16px; height:320px; width:100%; background:var(--cream);">
+        <div style="font-size:48px;">📍</div>
+        <div style="font-size:14px; color:var(--muted); text-align:center; line-height:1.6;">259 Queensberry St<br>Carlton VIC 3053</div>
+        <a href="https://maps.google.com/?q=259+Queensberry+St+Carlton+VIC+3053+Australia" target="_blank" class="map-link">Open in Google Maps →</a>
+      </div>
+      <a href="https://maps.google.com/?q=259+Queensberry+St+Carlton+VIC+3053+Australia" target="_blank" class="map-open-btn">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        Open in Google Maps
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div>
+      <div class="footer-logo"><em>CHO A</em> Hair Seoul · Melbourne</div>
+      <p class="footer-desc">Melbourne's premier Korean celebrity hair salon. Authentic Seoul techniques, transformative results. Located in Carlton, open every day.</p>
+      <a href="https://www.instagram.com/ysora1" target="_blank" class="insta-btn">Instagram →</a>
+    </div>
+    <div>
+      <div class="footer-heading">Navigate</div>
+      <ul class="footer-links">
+        <li><a href="#about">About CHO A</a></li>
+        <li><a href="#services">Services & Pricing</a></li>
+        <li><a href="#reviews">Client Reviews</a></li>
+        <li><a href="#booking">Book Appointment</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-heading">Contact</div>
+      <ul class="footer-links">
+        <li><a href="tel:+61435998170">+61 435 998 170</a></li>
+        <li><a href="#">259 Queensberry St</a></li>
+        <li><a href="#">Carlton VIC 3053</a></li>
+        <li><a href="#">Open 24 Hours</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-copy">© 2024 Korean Celebrity Hair Salon by CHO A. Carlton, Melbourne.</div>
+    <div class="footer-seo">Korean hair salon Melbourne | Korean perm Carlton | Best hair salon Melbourne</div>
+  </div>
+</footer>
+
+<script>
+function toggleMobileMenu() {
+  const menu = document.getElementById('mobileMenu');
+  const ham = document.getElementById('hamburger');
+  menu.classList.toggle('open');
+  ham.classList.toggle('open');
+  document.body.style.overflow = menu.classList.contains('open') ? 'hidden' : '';
+}
+function closeMobileMenu() {
+  document.getElementById('mobileMenu').classList.remove('open');
+  document.getElementById('hamburger').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+// Smooth scroll for ALL nav anchor links
+document.querySelectorAll('a[href^="#"]').forEach(link => {
+  link.addEventListener('click', function(e) {
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      e.preventDefault();
+      closeMobileMenu();
+      const offset = 80;
+      const top = target.getBoundingClientRect().top + window.scrollY - offset;
+      window.scrollTo({ top, behavior: 'smooth' });
+    }
+  });
+});
+
+const cursor = document.getElementById('cursor');
+const ring = document.getElementById('cursorRing');
+let mx = 0, my = 0, rx = 0, ry = 0;
+document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; });
+function animateCursor() {
+  cursor.style.left = mx + 'px'; cursor.style.top = my + 'px';
+  rx += (mx - rx) * 0.12; ry += (my - ry) * 0.12;
+  ring.style.left = rx + 'px'; ring.style.top = ry + 'px';
+  requestAnimationFrame(animateCursor);
+}
+animateCursor();
+document.querySelectorAll('a, button').forEach(el => {
+  el.addEventListener('mouseenter', () => { ring.style.width = '60px'; ring.style.height = '60px'; });
+  el.addEventListener('mouseleave', () => { ring.style.width = '36px'; ring.style.height = '36px'; });
+});
+
+window.addEventListener('scroll', () => {
+  document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 60);
+});
+
+function submitBooking(e) {
+  e.preventDefault();
+  document.getElementById('bookSuccess').style.display = 'block';
+  const btn = e.target.querySelector('.form-btn');
+  btn.textContent = 'Appointment Requested ✓';
+  btn.style.background = '#2D7A4A';
+}
+</script>
+</body>
+</html>
